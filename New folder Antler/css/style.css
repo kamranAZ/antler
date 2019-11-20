@@ -1,0 +1,37 @@
+#Header {
+  background-color: #1f3242;
+  font-size: 0.9em;
+  padding-top: 8px;
+}
+
+#Header .header1 {
+  color: #68AEAF;
+}
+
+#Header .header1 a {
+  color: yellow;
+}
+
+#Header .news {
+  padding: 0px 10px 5px 0px;
+  border-radius: 1.5em;
+  background-color: #EE5586;
+  color: white;
+}
+
+#Header .headerLink a {
+  color: #68AEAF;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+#Header .headerLink a:hover {
+  color: white;
+}
+
+#SERVERS {
+  background: url(http://inebur.com/antler/template/patterns/gaming.svg);
+  background-color: #eb19c3;
+  background-color: linear-gradient(90deg, #eb19c3 8%, #790fe0 61%);
+}
+/*# sourceMappingURL=style.css.map */

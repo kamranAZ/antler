@@ -1,49 +1,136 @@
 #Header {
   background-color: #1f3242;
   font-size: 0.9em;
-  padding-top: 8px; }
-  #Header .header1 {
-    color: #68AEAF; }
-    #Header .header1 a {
-      color: yellow; }
-  #Header .news {
-    padding: 0px 10px 5px 0px;
-    border-radius: 1.5em;
-    background-color: #EE5586;
-    color: white; }
-  #Header .headerLink a {
-    color: #68AEAF;
-    margin-left: 15px;
-    text-decoration: none; }
-  #Header .headerLink a:hover {
-    color: white; }
+  padding-top: 8px;
+}
+
+#Header .header1 {
+  color: #68AEAF;
+}
+
+#Header .header1 a {
+  color: yellow;
+}
+
+#Header .news {
+  padding: 0px 10px 5px 0px;
+  border-radius: 1.5em;
+  background-color: #EE5586;
+  color: white;
+}
+
+#Header .headerLink a {
+  color: #68AEAF;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+#Header .headerLink a:hover {
+  color: white;
+}
 
 #SERVERS {
-  background: url(http://inebur.com/antler/template/patterns/gaming.svg);
-  background-color: #C04848;
+  background-image: url(http://inebur.com/antler/template/patterns/gaming.svg);
+  background-image: cover;
+  background-color: #16222A;
   /* fallback for old browsers */
-  background-color: -webkit-linear-gradient(to right, #480048, #C04848);
+  background-color: -webkit-linear-gradient(to bottom, #3A6073, #16222A);
   /* Chrome 10-25, Safari 5.1-6 */
-  background-color: linear-gradient(to right, #480048, #C04848);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
-  #SERVERS .logo {
-    color: white;
-    font-weight: 700; }
-  #SERVERS .menu {
-    position: relative; }
-    #SERVERS .menu li {
-      padding: 25px 15px; }
-    #SERVERS .menu .smalldrop:hover .smalldrop-menu {
-      display: block; }
-    #SERVERS .menu .smalldrop .dropdown-menu-center {
-      left: 50%;
-      transform: translateX(-50%); }
-    #SERVERS .menu .bigmenu {
-      display: none; }
-    #SERVERS .menu .bigDroppedMenu:hover .bigmenu {
-      display: block; }
-  #SERVERS .top-banner {
-    padding-top: 100px;
-    padding-bottom: 100px; }
+  background-color: linear-gradient(to bottom, #3A6073, #16222A);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+#SERVERS #gaming .gaming-head {
+  color: white;
+}
+
+#SERVERS #gaming .gaming-subhead {
+  color: white;
+}
+
+#SERVERS .logo {
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+#SERVERS .menu {
+  position: relative;
+}
+
+#SERVERS .menu li {
+  padding: 25px 15px;
+}
+
+#SERVERS .menu .smalldrop:hover .smalldrop-menu {
+  display: block;
+}
+
+#SERVERS .menu .smalldrop .dropdown-menu-center {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#SERVERS .menu .bigmenu {
+  display: none;
+  border-radius: 10px;
+}
+
+#SERVERS .menu .bigDroppedMenu {
+  top: 99% !important;
+}
+
+#SERVERS .menu .bigDroppedMenu:hover .bigmenu {
+  display: block;
+}
+
+#SERVERS .top-banner {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#SERVERS .HomeRTL {
+  padding: 5px 10px;
+  background: #EE5586;
+  border-radius: 15px;
+}
+
+#SERVERS .mini-text {
+  border-radius: 10px;
+}
+
+#SERVERS .mini-text li {
+  padding: 8px;
+}
+
+#SERVERS .mini-text a {
+  text-decoration: none;
+  color: rgba(14, 12, 12, 0.658);
+}
+
+#SERVERS .mini-text a:hover {
+  color: #EE5586;
+}
+
+#SERVERS #dropdownMenuLink {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+#SERVERS .inner {
+  text-align: center;
+  padding-top: 25px;
+  border-radius: 0 10px 10px 0;
+  height: 100%;
+  background-color: #fdd700;
+  color: #181b22;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+#SERVERS .inner .c-pink {
+  color: #EE5586;
+}
 /*# sourceMappingURL=style.css.map */

@@ -30,6 +30,8 @@
 }
 
 #SERVERS {
+  position: relative;
+  height: 800px;
   background-image: url(http://inebur.com/antler/template/patterns/gaming.svg);
   background-image: cover;
   background-color: #16222A;
@@ -40,8 +42,20 @@
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+#SERVERS #gaming span {
+  color: #EE5586;
+}
+
 #SERVERS #gaming .gaming-head {
-  color: white;
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #fff;
+  display: inline-block;
+  font-family: "Open Sans Bold";
+  font-weight: 700;
+  line-height: 58px;
+  font-size: 52px;
 }
 
 #SERVERS #gaming .gaming-subhead {
@@ -51,6 +65,32 @@
 #SERVERS .logo {
   padding-top: 20px;
   cursor: pointer;
+}
+
+#SERVERS #homeIdAnt {
+  position: relative;
+}
+
+#SERVERS #homeIdAnt span {
+  position: absolute;
+  right: 0;
+  background: #EE5586;
+  border-radius: 10px 0  0 10px;
+}
+
+#SERVERS #homeIdCs {
+  position: relative;
+}
+
+#SERVERS #homeIdCs span {
+  position: absolute;
+  right: 0;
+  background: #EE5586;
+  border-radius: 10px 0  0 10px;
+}
+
+#SERVERS .left-svg {
+  padding: 10px 15px 5px 0;
 }
 
 #SERVERS .menu {
@@ -132,5 +172,24 @@
 
 #SERVERS .inner .c-pink {
   color: #EE5586;
+}
+
+#mineCrat .meinCratAll {
+  position: absolute;
+  top: -100px;
+  background: white;
+  border-radius: 20px;
+}
+
+#mineCrat .meinCratAll .meinPlan {
+  padding: 40px 60px 40px 60px;
+}
+
+#mineCrat .intelXeon {
+  background: #EE5586;
+}
+
+#mineCrat .intelXeon ul {
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */

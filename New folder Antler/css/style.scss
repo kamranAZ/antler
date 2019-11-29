@@ -1,124 +1,203 @@
-#Header{
-    background-color:rgb(31, 50, 66);
-    font-size:0.9em;
+#Header {
+    background-color: rgb(31, 50, 66);
+    font-size: 0.9em;
     padding-top: 8px;
-    .header1{
+
+    .header1 {
         color: #68AEAF;
-        a{
+
+        a {
             color: yellow;
         }
     }
-    .news{
+
+    .news {
 
         padding: 0px 10px 5px 0px;
         border-radius: 1.5em;
         background-color: #EE5586;
         color: white;
     }
-    .headerLink{
-        a{
-            color:#68AEAF ;
-            margin-left: 15px ;
+
+    .headerLink {
+        a {
+            color: #68AEAF;
+            margin-left: 15px;
             text-decoration: none;
         }
-        a:hover{
+
+        a:hover {
             color: white;
         }
     }
 }
-#SERVERS{
+
+#SERVERS {
+    position: relative;
+    height: 800px;
     background-image: url(http://inebur.com/antler/template/patterns/gaming.svg);
     background-image: cover;
-    background-color: #16222A;  /* fallback for old browsers */
-    background-color: -webkit-linear-gradient(to bottom, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
-    background-color: linear-gradient(to bottom, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #16222A;
+    /* fallback for old browsers */
+    background-color: -webkit-linear-gradient(to bottom, #3A6073, #16222A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background-color: linear-gradient(to bottom, #3A6073, #16222A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-#gaming{
-    .gaming-head{
-        color: white;
-    }
-    .gaming-subhead{
-        color: white;
-    }
-    
-}
-    .logo{
-            padding-top: 20px; 
-            cursor: pointer;
-    }
-    .menu{
-        position:relative;
-        li{
-
-            padding:25px 15px;
+    #gaming {
+        span{
+            color: #EE5586;
         }
-        .smalldrop{
-            &:hover{
-                .smalldrop-menu
-                {
-                    display:block;
+        .gaming-head {
+            position: relative;
+            margin-bottom: 20px;
+            width: 100%;
+            color: #fff;
+            display: inline-block;
+            font-family: "Open Sans Bold";
+            font-weight: 700;
+            line-height: 58px;
+            font-size: 52px;
+        }
+
+        .gaming-subhead {
+            color: white;
+        }
+
+    }
+
+    .logo {
+        padding-top: 20px;
+        cursor: pointer;
+    }
+    #homeIdAnt{
+        position: relative;
+        span{
+            position: absolute;
+            right: 0;
+            background: #EE5586;
+            border-radius:10px 0  0 10px;
+        }
+    }
+    #homeIdCs{
+        position: relative;
+        span{
+            position: absolute;
+            right: 0;
+            background: #EE5586;
+            border-radius:10px 0  0 10px;
+        }
+    }
+    .left-svg{
+        padding: 10px 15px 5px 0;
+    }
+    .menu {
+        position: relative;
+
+        li {
+
+            padding: 25px 15px;
+        }
+
+        .smalldrop {
+            &:hover {
+                .smalldrop-menu {
+                    display: block;
                 }
 
             }
-            .dropdown-menu-center{
-                 left: 50%;
+
+            .dropdown-menu-center {
+                left: 50%;
                 transform: translateX(-50%);
             }
         }
-        .bigmenu{
+
+        .bigmenu {
             display: none;
             border-radius: 10px;
         }
-        .bigDroppedMenu{
-            top:99% !important;
-            &:hover{
-                .bigmenu{
-                    display:block;
+
+        .bigDroppedMenu {
+            top: 99% !important;
+
+            &:hover {
+                .bigmenu {
+                    display: block;
                 }
             }
         }
     }
-    .top-banner{
+
+    .top-banner {
         padding-top: 100px;
-        padding-bottom: 100px; 
+        padding-bottom: 100px;
     }
-    .HomeRTL{
+
+    .HomeRTL {
         padding: 5px 10px;
         background: #EE5586;
-        border-radius:15px ;
+        border-radius: 15px;
     }
+
     .mini-text {
         border-radius: 10px;
-        li{
+
+        li {
             padding: 8px;
         }
-        a{
+
+        a {
             text-decoration: none;
             color: rgba(14, 12, 12, 0.658);
+
             &:hover {
                 color: #EE5586;
             }
         }
-           
+
     }
-    #dropdownMenuLink{
+
+    #dropdownMenuLink {
         text-decoration: none;
         color: white;
         font-size: 1em;
         font-weight: 500;
     }
-    .inner{
+
+    .inner {
         text-align: center;
-        padding-top:25px ;
+        padding-top: 25px;
         border-radius: 0 10px 10px 0;
         height: 100%;
         background-color: #fdd700;
         color: #181b22;
         font-size: 1em;
         font-weight: 600;
-        .c-pink{
+
+        .c-pink {
             color: #EE5586;
         }
-        
+
     }
+}
+#mineCrat{
+    .meinCratAll{
+        position: absolute;
+        top: -100px;
+        
+        background: white;
+        border-radius: 20px;
+        .meinPlan{
+            padding: 40px 60px 40px 60px;
+        }
+    }
+    .intelXeon{
+        
+        background: #EE5586;
+        ul{
+            margin-bottom: 0;
+        }
+    }
+
 }

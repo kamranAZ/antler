@@ -45,9 +45,10 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     #gaming {
-        span{
+        span {
             color: #EE5586;
         }
+
         .gaming-head {
             position: relative;
             margin-bottom: 20px;
@@ -70,27 +71,33 @@
         padding-top: 20px;
         cursor: pointer;
     }
-    #homeIdAnt{
+
+    #homeIdAnt {
         position: relative;
-        span{
+
+        span {
             position: absolute;
             right: 0;
             background: #EE5586;
-            border-radius:10px 0  0 10px;
+            border-radius: 10px 0 0 10px;
         }
     }
-    #homeIdCs{
+
+    #homeIdCs {
         position: relative;
-        span{
+
+        span {
             position: absolute;
             right: 0;
             background: #EE5586;
-            border-radius:10px 0  0 10px;
+            border-radius: 10px 0 0 10px;
         }
     }
-    .left-svg{
+
+    .left-svg {
         padding: 10px 15px 5px 0;
     }
+
     .menu {
         position: relative;
 
@@ -181,23 +188,89 @@
 
     }
 }
-#mineCrat{
-    .meinCratAll{
+
+#mineCrat {
+    margin-bottom: 30%;
+    background: grey;
+
+    .meinCratAll {
         position: absolute;
         top: -100px;
-        
+        box-shadow: grey;
+
         background: white;
-        border-radius: 20px;
-        .meinPlan{
+        border-radius: 20px 20px;
+
+        .meinPlan {
             padding: 40px 60px 40px 60px;
         }
     }
-    .intelXeon{
-        
+
+    .intelXeon {
         background: #EE5586;
-        ul{
+        border-radius: 0px 0px 20px 20px;
+
+        ul {
             margin-bottom: 0;
         }
+    }
+
+}
+
+#gameCenter {
+    position: relative;
+    background: linear-gradient(90deg, #15212a 70%, #fdd700 10%) !important;
+
+    img {
+        vertical-align: middle;
+        border-style: none;
+        // border: 2px solid red
+
+    }
+
+    .service-wrap {
+        position: absolute;
+        max-width: 1140px;
+        top: 0;
+        height: 100%;
+        padding-top: 10%;
+
+        .services {
+            background: white;
+            border-radius: 15px;
+            margin-top: 50px;
+            padding: 50px;
+
+            .title {
+                font-family: "Open Sans SemiBold";
+                font-size: 18px;
+                color: #212122;
+                margin-top: 20px;
+                margin-bottom: 14px;
+            }
+
+        }
+
+        .section-heading {
+            font-family: "Open Sans";
+            font-size: 32px;
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+            position: relative;
+            display: inline-block;
+            color: white;
+            line-height: 34px;
+        }
+
+        .section-subheading {
+            font-family: "Open Sans";
+            color: grey;
+            font-size: 16px;
+            margin-bottom: 0;
+            line-height: 34px
+        }
+
     }
 
 }

@@ -75,7 +75,7 @@
   position: absolute;
   right: 0;
   background: #EE5586;
-  border-radius: 10px 0  0 10px;
+  border-radius: 10px 0 0 10px;
 }
 
 #SERVERS #homeIdCs {
@@ -86,7 +86,7 @@
   position: absolute;
   right: 0;
   background: #EE5586;
-  border-radius: 10px 0  0 10px;
+  border-radius: 10px 0 0 10px;
 }
 
 #SERVERS .left-svg {
@@ -174,11 +174,18 @@
   color: #EE5586;
 }
 
+#mineCrat {
+  margin-bottom: 30%;
+  background: grey;
+}
+
 #mineCrat .meinCratAll {
   position: absolute;
   top: -100px;
+  -webkit-box-shadow: grey;
+          box-shadow: grey;
   background: white;
-  border-radius: 20px;
+  border-radius: 20px 20px;
 }
 
 #mineCrat .meinCratAll .meinPlan {
@@ -187,9 +194,64 @@
 
 #mineCrat .intelXeon {
   background: #EE5586;
+  border-radius: 0px 0px 20px 20px;
 }
 
 #mineCrat .intelXeon ul {
   margin-bottom: 0;
+}
+
+#gameCenter {
+  position: relative;
+  background: -webkit-gradient(linear, left top, right top, color-stop(70%, #15212a), color-stop(10%, #fdd700)) !important;
+  background: linear-gradient(90deg, #15212a 70%, #fdd700 10%) !important;
+}
+
+#gameCenter img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+#gameCenter .service-wrap {
+  position: absolute;
+  max-width: 1140px;
+  top: 0;
+  height: 100%;
+  padding-top: 10%;
+}
+
+#gameCenter .service-wrap .services {
+  background: white;
+  border-radius: 15px;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+#gameCenter .service-wrap .services .title {
+  font-family: "Open Sans SemiBold";
+  font-size: 18px;
+  color: #212122;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+#gameCenter .service-wrap .section-heading {
+  font-family: "Open Sans";
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  position: relative;
+  display: inline-block;
+  color: white;
+  line-height: 34px;
+}
+
+#gameCenter .service-wrap .section-subheading {
+  font-family: "Open Sans";
+  color: grey;
+  font-size: 16px;
+  margin-bottom: 0;
+  line-height: 34px;
 }
 /*# sourceMappingURL=style.css.map */
